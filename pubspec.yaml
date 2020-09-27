@@ -1,6 +1,6 @@
 name: countdown_timer_simple
 description: A flutter countdown timer component.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/mma-amini
 
 environment:
