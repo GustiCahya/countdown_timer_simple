@@ -11,33 +11,33 @@ Install it
 ```yaml
 $ flutter pub get
 ```
-##
+## Fields
 | name                       | description                                                                                                                                                            |
-| ------------------------- | ------------------------------------------------------------- |
-| endTime                   | Countdown end time stamp                                      |
-| onEnd                     | Countdown end event                                           |
-| emptyWidget               | The widget displayed at the end of the countdown              |
-| defaultDays               | String defaultDays                                            |
-| defaultHours              | String defaultHours                                           |
-| defaultMin                | String defaultMin                                             |
-| defaultSec                | final String defaultSec                                       |
-| daysSymbol                | final String daysSymbol                                       |
-| hoursSymbol               | final String hoursSymbol                                      |
-| minSymbol                 | final String minSymbol                                        |
-| secSymbol                 | final String secSymbol                                        |
-| textStyle                 | final TextStyle textStyle                                     |
-| daysTextStyle             | final TextStyle daysTextStyle                                 |
-| hoursTextStyle            | final TextStyle hoursTextStyle                                |
-| minTextStyle              | final TextStyle minTextStyle                                  |
-| secTextStyle              | final TextStyle secTextStyle                                  |
-| daysSymbolTextStyle       | final TextStyle daysSymbolTextStyle                           |
-| hoursSymbolTextStyle      | final TextStyle hoursSymbolTextStyle                          |
-| minSymbolTextStyle        | final TextStyle minSymbolTextStyle                            |
-| secSymbolTextStyle        | final TextStyle secSymbolTextStyle                            |
-| showDay                   | final bool showDay                                            |
-| showHour                  | final bool showHour                                           |
-| showMin                   | final bool showMin                                            |
-| ShowSec                   | final bool showSec                                            |
+| ---------------------- | ---------------------------------------------------- |
+| endTime                | Countdown end time stamp                             |
+| onEnd                  | Countdown end event                                  |
+| emptyWidget            | The widget displayed at the end of the countdown     |
+| defaultDays            | String defaultDays                                   |
+| defaultHours           | String defaultHours                                  |
+| defaultMin             | String defaultMin                                    |
+| defaultSec             | final String defaultSec                              |
+| daysSymbol             | final String daysSymbol                              |
+| hoursSymbol            | final String hoursSymbol                             |
+| minSymbol              | final String minSymbol                               |
+| secSymbol              | final String secSymbol                               |
+| textStyle              | final TextStyle textStyle                            |
+| daysTextStyle          | final TextStyle daysTextStyle                        |
+| hoursTextStyle         | final TextStyle hoursTextStyle                       |
+| minTextStyle           | final TextStyle minTextStyle                         |
+| secTextStyle           | final TextStyle secTextStyle                         |
+| daysSymbolTextStyle    | final TextStyle daysSymbolTextStyle                  |
+| hoursSymbolTextStyle   | final TextStyle hoursSymbolTextStyle                 |
+| minSymbolTextStyle     | final TextStyle minSymbolTextStyle                   |
+| secSymbolTextStyle     | final TextStyle secSymbolTextStyle                   |
+| showDay                | final bool showDay                                   |
+| showHour               | final bool showHour                                  |
+| showMin                | final bool showMin                                   |
+| ShowSec                | final bool showSec                                   |
 
 
 ## Example
