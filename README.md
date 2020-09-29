@@ -37,7 +37,7 @@ $ flutter pub get
 | showDay                | final bool showDay                                   |
 | showHour               | final bool showHour                                  |
 | showMin                | final bool showMin                                   |
-| ShowSec                | final bool showSec                                   |
+| showSec                | final bool showSec                                   |
 
 
 ## Example
