@@ -105,27 +105,19 @@ class _CountDownState extends State<CountdownTimerSimple> {
 
   timerDiffDate() {
     DiffDate data = getDateData();
-    if (data != null) {
-      setState(() {
-        diffDate = data;
-      });
-    } else {
-      return null;
-    }
-    disposeDiffTimer();
+    setState(() {
+      diffDate = data;
+    });
+      disposeDiffTimer();
     const period = const Duration(seconds: 1);
     _diffTimer = Timer.periodic(period, (timer) {
       //到时回调
       DiffDate data = getDateData();
-      if (data != null) {
-        setState(() {
-          diffDate = data;
+      setState(() {
+        diffDate = data;
+      });
+      checkDateEnd(data);
         });
-        checkDateEnd(data);
-      } else {
-        disposeDiffTimer();
-      }
-    });
   }
 
   @override
@@ -135,7 +127,7 @@ class _CountDownState extends State<CountdownTimerSimple> {
   }
 
   disposeDiffTimer() {
-    _diffTimer?.cancel();
+    _diffTimer.cancel();
     _diffTimer = null;
   }
 
@@ -162,9 +154,6 @@ class _CountDownState extends State<CountdownTimerSimple> {
 
   _items() {
     List<Widget> list = [];
-    if (diffDate == null) {
-      return list;
-    }
 
     if (widget.showDay) {
       if (diffDate.days != -1) {
@@ -226,9 +215,6 @@ class _CountDownState extends State<CountdownTimerSimple> {
   }
 
   String _getNumberAddZero(int number) {
-    if (number == null) {
-      return null;
-    }
     if (number < 10) {
       return "0" + number.toString();
     }
