@@ -1,11 +1,11 @@
 name: countdown_timer_simple
 description: A flutter countdown timer component.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/mma-amini
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.17.0 <2.0.0"
+  sdk: ">=2.12.0 <3.2.0"
+#  flutter: ">=1.17.0 <3.14.0"
 
 dependencies:
   flutter:
